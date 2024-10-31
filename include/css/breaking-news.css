@@ -1,0 +1,78 @@
+.stbn-breaking-news-footer{width: 100%;height:auto;z-index: 99999999;position: fixed; bottom: 0}
+.stbn-breaking-news-header{width: 100%;height:auto;z-index: 99999999;position: absolute}
+.stn-bn-prefix{
+    width:7%;float:left;padding: 10px;
+    border-bottom: 1px solid #c80012;
+    background-color: #a20c1f;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d60000',endColorstr='#920000',GradientType=0);
+    background-image: -webkit-linear-gradient(bottom,#920000,#d60000);
+    background-image: -moz-linear-gradient(bottom,#920000,#d60000);
+    background-image: -ms-linear-gradient(bottom,#920000,#d60000);
+    background-image: -o-linear-gradient(bottom,#920000,#d60000);
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    text-transform: uppercase;
+    border-right: 1px solid #fff;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+
+
+
+}
+.stn-news-bar{width:90%;float:left;padding: 18px;
+    background-image: -webkit-linear-gradient(bottom,#838383,#000000);
+    background-image: -moz-linear-gradient(bottom,#838383,#000000);
+    background-image: -ms-linear-gradient(bottom,#838383,#000000);
+    background-image: -o-linear-gradient(bottom,#838383,#000000);
+    border-bottom: 1px solid #333333;
+    color: #fff;
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+    font-size: 16px;
+    min-height: 24px;
+}
+.stn-news-bar a, .stn-news-bar a:visited{color: #fff;}
+.stbn-close-btn{float: right;}
+
+@media screen and (max-width: 1100px) {
+    .stn-bn-prefix{
+        width:12%;
+    }
+    .stn-news-bar{width:88%;padding: 6px;min-height: 61px;}
+}
+@media (min-width: 992px){
+    .col-md-11 {
+        width: 90.666667%;
+        padding: 18px;
+    }
+    .col-md-1 {
+        width: 9.333333%;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .stn-bn-prefix{
+        width:14%;
+    }
+    .stn-news-bar{width:86%;padding: 6px;}
+}
+@media screen and (max-width: 790px) {
+    .stn-bn-prefix{
+        width:18%;
+    }
+    .stn-news-bar{width:82%;padding: 6px;}
+}
+@media screen and (max-width: 630px) {
+    .stn-bn-prefix{
+        width:20%;
+    }
+    .stn-news-bar{width:80%;padding: 6px;}
+}
+@media screen and (max-width: 610px) {
+    .stn-bn-prefix{
+        width:100%;
+        border-right: 0;
+    }
+    .stn-news-bar{width:100%;padding: 6px;}
+}
